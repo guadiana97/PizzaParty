@@ -1,3 +1,12 @@
+/**
+ * Author: Alberto Guadiana
+ * Project: LAB1 CS 646
+ * Date: 2/12/2024
+ *
+ * Description: Pizza Party Application that calculates total number of pizzas
+ * needed based on hunger level and amount of people.
+ */
+
 package com.zybooks.pizzaparty
 
 import androidx.appcompat.app.AppCompatActivity
@@ -23,8 +32,6 @@ class MainActivity : AppCompatActivity() {
 
     /**
      * Loading the XML layout and performing initialization
-     *
-     *
      */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
